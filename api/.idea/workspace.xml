@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26438209-8f6e-45bb-8dc7-7874e47db85f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.16.2/libexec" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1qEpI7wDO1SYxK2HIBzvUcd2aJn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build api main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="api" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/../api|$PROJECT_DIR$/main.go" />
+      <package value="api" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26438209-8f6e-45bb-8dc7-7874e47db85f" name="Default Changelist" comment="" />
+      <created>1616654520665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616654520665</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1194" y="198" key="#Go_Modules" timestamp="1616654532130">
+      <screen x="-1860" y="-155" width="1860" height="1055" />
+    </state>
+    <state x="-1194" y="198" key="#Go_Modules/0.25.1440.875/-1860.-155.1860.1055@-1860.-155.1860.1055" timestamp="1616654532130" />
+    <state x="-1530" y="19" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616654602579">
+      <screen x="-1860" y="-155" width="1860" height="1055" />
+    </state>
+    <state x="-1530" y="19" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-1860.-155.1860.1055@-1860.-155.1860.1055" timestamp="1616654602579" />
+  </component>
+</project>
