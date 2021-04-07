@@ -1,20 +1,30 @@
 package main
 
 import (
+	"api/models"
+	"api/pkg/logging"
 	"api/pkg/setting"
-	"github.com/gin-gonic/gin"
+	"api/router"
+	"fmt"
 	"log"
+	"net/http"
 )
 
 func main() {
-	log.Println("启动中")
+	log.Println("Hello, api 正在启动中...")
+
+	router := router.InitRouter()
+
+	// 初始化设置
 	setting.SetUp()
-	log.Print(setting.ServerSetting.RunMode)
-	r := gin.Default()
-	r.GET("/ping", func(context *gin.Context) {
-		context.JSON(200, gin.H{
-			"data": "success",
-		})
-	})
-	r.Run()
+	logging.SetUp()
+	models.SetUp()
+
+	s := &http.Server{
+		Addr:         fmt.Sprintf(":%d", setting.ServerSetting.HttpPort),
+		Handler:      router,
+		ReadTimeout:  setting.ServerSetting.ReadTimeout,
+		WriteTimeout: setting.ServerSetting.WriteTimeout, MaxHeaderBytes: 1 << 20}
+
+	s.ListenAndServe()
 }

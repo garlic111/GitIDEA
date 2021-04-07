@@ -1,18 +1,21 @@
 package util
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+	"net/http"
+)
 import "api/pkg/e"
 
 type Response struct {
-	Code int
-	Msg  string
-	Data interface{}
+	code int
+	msg  string
+	data interface{}
 }
 
 func ResponseWithJson(code int, data interface{}, c *gin.Context) {
-	c.JSON(200, &Response{
-		Code: code,
-		Msg:  e.GetMsg(code),
-		Data: data,
+	c.JSON(http.StatusOK, gin.H{
+		"code": code,
+		"msg":  e.GetMsg(code),
+		"data": data,
 	})
 }
