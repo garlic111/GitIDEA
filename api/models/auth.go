@@ -10,6 +10,6 @@ type User struct {
 
 func GetUserID(username string) string {
 	var user User
-	db.Select("id").Where(User{Username: username}).First(&user)
-	return user.Head
+	db.Select("username").Where(User{Username: username}).First(&user)
+	return user.Username
 }
