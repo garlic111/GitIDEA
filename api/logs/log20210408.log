@@ -1,6 +1,0 @@
-[FATAL][models.go:24]2021/04/08 13:46:26 [数据库失败 sql: unknown driver "mysql" (forgotten import?)]
-[FATAL][models.go:24]2021/04/08 13:46:48 [数据库失败 sql: unknown driver "mysql" (forgotten import?)]
-[FATAL][models.go:24]2021/04/08 13:47:13 [数据库失败 sql: unknown driver "mysql" (forgotten import?)]
-[FATAL][models.go:25]2021/04/08 13:49:03 [数据库失败 Error 1045: Access denied for user 'root'@'localhost' (using password: YES)]
-[FATAL][models.go:25]2021/04/08 13:50:27 [数据库失败 Error 1045: Access denied for user 'root'@'localhost' (using password: YES)]
-[FATAL][models.go:25]2021/04/08 13:55:47 [数据库失败 Error 1049: Unknown database 'api']

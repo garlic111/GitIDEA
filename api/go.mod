@@ -3,6 +3,7 @@ module api
 go 1.16
 
 require (
+	github.com/appleboy/gin-jwt v2.5.0+incompatible // indirect
 	github.com/appleboy/gin-jwt/v2 v2.6.4 // indirect
 	github.com/gin-gonic/gin v1.6.3 // indirect
 	github.com/go-ini/ini v1.62.0 // indirect
@@ -18,5 +19,6 @@ require (
 	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 // indirect
 	golang.org/x/sys v0.0.0-20210403161142-5e06dd20ab57 // indirect
 	golang.org/x/text v0.3.6 // indirect
+	gopkg.in/dgrijalva/jwt-go.v3 v3.2.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

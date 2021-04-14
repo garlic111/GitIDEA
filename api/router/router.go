@@ -37,6 +37,7 @@ func InitRouter() *gin.Engine {
 	apiUser := r.Group("api/user")
 	{
 		apiUser.GET("info", user.GetUserInfo)
+		apiUser.GET("userMobile",user.GetUserMobile)
 	}
 
 	return r
