@@ -15,6 +15,8 @@ func main() {
 
 	router := router.InitRouter()
 
+	fmt.Println("hello,mybranch")
+
 	// 初始化设置
 	setting.SetUp()
 	logging.SetUp()
